@@ -26,6 +26,14 @@ streama-video-player{
   video {
     width: 100%;
     max-height: 100%;
+
+    &::cue {
+      color: white;
+      background: transparent;
+      font-weight: 700;
+      font-size: 48pt;
+      text-shadow: 4px 4px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    }
   }
 
   .overlay{
